@@ -18,7 +18,7 @@ type Orders struct {
 	ShippedDate    string
 	Status         string
 	Comments       string
-	CustomerNumber int16 `json:"customerNumber"`
+	CustomerNumber int16 //`json:"customerNumber"`
 }
 
 type Orderdetail struct {
@@ -49,6 +49,12 @@ type Response struct {
 	Data   interface{}
 }
 
+type Response1 struct {
+	Status string
+	Error  error
+	Code   int
+	Data   interface{}
+}
 type Employee struct {
 	EmployeeNumber int
 	LastName       string

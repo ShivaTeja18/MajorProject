@@ -82,13 +82,13 @@ func (h Handler) Delet(c *gin.Context) {
 	//	c.JSON(http.StatusGone, err)
 	//}
 
-	c.JSON(http.StatusOK, details.Response{Status: "successful", Error: "", Code: http.StatusOK, Data: &nemp})
+	c.JSONP(http.StatusOK, details.Response{Status: "successful", Error: "", Code: http.StatusOK, Data: &nemp})
 	return
 }
 
 func (h Handler) FetchEmp(c *gin.Context) {
 	var emps []details.Employee
-	id := c.Request.FormValue("office_code")
+	id := c.Param("office_code")
 	if id == "" {
 		c.JSON(http.StatusBadRequest, details.Response{
 			Status: "UNSUCCESSFUL",

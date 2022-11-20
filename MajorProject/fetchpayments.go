@@ -10,10 +10,6 @@ import (
 
 func (h Handler) FromtoTill(c *gin.Context) {
 	var fpay []details.Payment
-	//var pa []details.Payment
-	//date := time.RFC3339Nano
-	//date := c.PostForm("payment_date")
-	//d := time.Date(0000, 00, 0, 0, 0, 0, 0, time.UTC)
 	from := c.Request.FormValue("payment_date")
 	fmt.Println("from ", from)
 	parse, err := time.Parse("2006-01-02", from)
@@ -99,3 +95,29 @@ func (h Handler) FromtoTill(c *gin.Context) {
 //	fmt.Println("value", err)
 //	return
 //}
+
+func (h Handler) Older(c *gin.Context) {
+	var old []details.Payment
+	date := c.Request.FormValue("date")
+	older, err := time.Parse("2006-01-02", date)
+	if err != nil {
+		c.JSON(http.StatusNotAcceptable, details.Response{
+			Status: "CHECK FORMAT",
+			Error:  err.Error(),
+		})
+		return
+	}
+	if err := h.DB.Model(&details.Payment{}).Where("payment_date<?", older).Order("payment_date Desc").Find(&old).Error; err != nil {
+		c.JSON(http.StatusBadRequest, details.Response{
+			Status: "unsu c",
+			Error:  err.Error(),
+		})
+		return
+	}
+	c.JSON(http.StatusOK, details.Response{
+		Status: "Successful",
+		Error:  "",
+		Code:   http.StatusOK,
+		Data:   old,
+	})
+}

@@ -1,0 +1,79 @@
+2022/11/12 10:37:21.206257 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/12 10:37:32.379682 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/12 10:40:35.788908 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/12 10:41:16.096050 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/12 10:41:35.254840 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/12 18:56:58.453521 dbconnect.go:19: connected
+2022/11/13 09:27:53.831035 dbconnect.go:19: connected
+2022/11/18 20:40:11.240502 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/18 20:43:02.192909 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/18 20:43:36.744899 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/18 20:44:10.337090 dbconnect.go:17: failed to connect to `host=psql-mock-database-cloud.postgres.database.azure.com user=jzoxvjombiuzvjolvrtikkns@psql-mock-database-cloud database=ecom1666192780245qbwvcnhcdzktnoum`: hostname resolving error (lookup psql-mock-database-cloud.postgres.database.azure.com: Temporary failure in name resolution)
+2022/11/18 20:44:18.499913 dbconnect.go:19: connected
+2022/11/18 20:44:29.283446 dbconnect.go:19: connected
+2022/11/18 20:44:41.059647 dbconnect.go:19: connected
+2022/11/18 20:44:57.136615 dbconnect.go:19: connected
+2022/11/18 20:45:41.680899 dbconnect.go:19: connected
+2022/11/18 21:04:15.704911 dbconnect.go:19: connected
+2022/11/18 21:05:22.211581 dbconnect.go:19: connected
+2022/11/19 07:37:56.335267 Product.go:79: EOF
+2022/11/19 07:37:56.335798 Product.go:79: EOF
+2022/11/19 07:37:56.336113 Product.go:79: EOF
+2022/11/19 07:37:56.336460 Product.go:79: EOF
+2022/11/19 07:37:56.336691 Product.go:79: EOF
+2022/11/19 07:40:20.904375 Product.go:79: EOF
+2022/11/19 07:40:20.904773 Product.go:79: EOF
+2022/11/19 07:40:20.905132 Product.go:79: EOF
+2022/11/19 07:40:20.905539 Product.go:79: EOF
+2022/11/19 07:40:20.905830 Product.go:79: EOF
+2022/11/19 07:43:02.585103 Product.go:79: EOF
+2022/11/19 07:43:02.585697 Product.go:79: EOF
+2022/11/19 07:43:02.585957 Product.go:79: EOF
+2022/11/19 07:43:02.586211 Product.go:79: EOF
+2022/11/19 07:43:02.586445 Product.go:79: EOF
+2022/11/19 07:43:14.391541 Product.go:79: EOF
+2022/11/19 07:43:14.391991 Product.go:79: EOF
+2022/11/19 07:43:14.392265 Product.go:79: EOF
+2022/11/19 07:43:14.392583 Product.go:79: EOF
+2022/11/19 07:43:14.392810 Product.go:79: EOF
+2022/11/19 07:45:24.351581 Product.go:79: EOF
+2022/11/19 07:45:24.352067 Product.go:79: EOF
+2022/11/19 07:45:24.352462 Product.go:79: EOF
+2022/11/19 07:45:24.352736 Product.go:79: EOF
+2022/11/19 07:45:24.353023 Product.go:79: EOF
+2022/11/19 07:48:01.560004 Product.go:79: EOF
+2022/11/19 07:48:01.560495 Product.go:79: EOF
+2022/11/19 07:48:01.560860 Product.go:79: EOF
+2022/11/19 07:48:01.561087 Product.go:79: EOF
+2022/11/19 07:48:01.561312 Product.go:79: EOF
+2022/11/19 07:49:33.016937 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:33.017556 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:33.017888 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:33.018231 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:33.018498 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:42.074699 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:42.075215 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:42.075517 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:42.075758 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 07:49:42.075972 Product.go:79: invalid character '-' in numeric literal
+2022/11/19 20:35:03.722764 dbconnect.go:19: connected
+2022/11/19 20:35:24.202292 dbconnect.go:19: connected
+2022/11/19 20:42:09.293255 dbconnect.go:19: connected
+2022/11/19 20:44:30.092295 dbconnect.go:19: connected
+2022/11/19 20:44:40.126934 dbconnect.go:19: connected
+2022/11/19 20:51:31.361970 dbconnect.go:19: connected
+2022/11/19 20:51:52.660595 dbconnect.go:19: connected
+2022/11/19 20:54:38.752182 dbconnect.go:19: connected
+2022/11/19 20:54:45.919973 dbconnect.go:19: connected
+2022/11/19 20:56:20.227398 dbconnect.go:19: connected
+2022/11/19 20:56:38.354345 dbconnect.go:19: connected
+2022/11/19 20:59:39.600508 dbconnect.go:19: connected
+2022/11/19 21:00:14.211807 dbconnect.go:19: connected
+2022/11/19 21:01:48.111490 dbconnect.go:19: connected
+2022/11/19 21:01:56.782078 dbconnect.go:19: connected
+2022/11/19 21:06:29.489148 dbconnect.go:19: connected
+2022/11/19 21:06:44.405355 dbconnect.go:19: connected
+2022/11/19 21:07:21.024611 dbconnect.go:19: connected
+2022/11/19 21:07:31.121808 dbconnect.go:19: connected
+2022/11/19 21:07:39.617675 dbconnect.go:19: connected
+2022/11/19 21:08:47.816844 dbconnect.go:19: connected

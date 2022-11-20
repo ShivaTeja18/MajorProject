@@ -20,7 +20,7 @@ func (h Handler) Fetch(c *gin.Context) {
 	//	if err != nil {
 	//		c.AbortWithStatusJSON(http.StatusBadRequest, details.Response{Status: "UNSUCCESSFUL", Error: err, Code: http.StatusBadRequest, Data: &cust})
 	//	}
-	//
+
 	if err := h.DB.Model(details.Orders{}).Where("customer_number = ?", &id).Find(&cust).Error; err != nil {
 		c.JSON(http.StatusBadRequest, details.Response{
 			Status: "UNSUCCESSFUL",
